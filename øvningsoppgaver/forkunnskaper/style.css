@@ -1,0 +1,142 @@
+:root {
+    --lilla: #7030A0;
+    --sandgul: #FFF2CC;
+    --gronn: #548235;
+    --svart: #232323;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 900px; 
+    padding: 20px;
+}
+
+
+.main-header {
+    background-color: var(--lilla);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo { 
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.hero-image {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-heading { 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+.course-flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.course-card {
+    background-color: var(--lilla);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    text-decoration: none;
+    border-radius: 4px;
+
+    h2 {
+        color: var(--sandgul);
+    }
+}
+
+.course-card h3 { 
+    border-bottom: 1px solid white; 
+    padding-bottom: 10px; 
+}
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 0.5fr;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.footer-image {
+    height: 250px;
+    width: 250px;
+    justify-self: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: var(--sandgul);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.submit-btn {
+    background-color: var(--gronn);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.footer-right { 
+    text-align: right; 
+}
+
+.footer-nav-list { 
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer-nav-list a { 
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold;
+    line-height: 2;
+}
+
+.footer-nav-list a:hover {
+    color: var(--lilla);
+}

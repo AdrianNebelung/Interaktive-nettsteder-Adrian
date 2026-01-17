@@ -14,7 +14,10 @@ const products = [
     {prodid: 3, title: "Master Wu", category: "Ninjago", price: "109", storage: 3, imagefile: "master_wu.webp"},
     {prodid: 4, title: "Scuba Kai", category: "Ninjago", price: "89", storage: 7, imagefile: "scuba_kai.webp"},
     {prodid: 5, title: "The Mechanic", category: "Ninjago", price: "99", storage: 3, imagefile: "the_mechanic.webp"},
-    {prodid: 6, title: "Vengestone Warrior", category: "Ninjago", price: "89", storage: 4, imagefile: "vengestone_warrior.webp"}
+    {prodid: 6, title: "Vengestone Warrior", category: "Ninjago", price: "89", storage: 4, imagefile: "vengestone_warrior.webp"},
+    {prodid: 7, title: "Ildridderens Robot", category: "Ninjago", price: "109", storage: 3, imagefile: "ildridderens_robot.webp"},
+    {prodid: 8, title: "Ildrobot", category: "Ninjago", price: "150", storage: 2, imagefile: "ildrobot.webp"},
+    {prodid: 9, title: "Big Chungus", category: "Ninjago", price: "999", storage: 1, imagefile: "bigchungus.webp"}
 ]
 
 /*
@@ -24,4 +27,6 @@ const products = [
  *     - bruk prodid som referanse for å hente tittel og pris
  * quantity: antall produkter lagt i handlekurven
  */
-let cart = []
+let cart = [];
+
+

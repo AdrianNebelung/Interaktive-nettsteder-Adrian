@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegoDudes - Hjem</title>
+    <link rel="stylesheet" href="/LEGOdudes/CSS/style.css" media="all">
+    <script src="/LEGOdudes/JS/legodudes.js" defer></script>
+    <script src="/LEGOdudes/JS/shopscript.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>
+                <a href="/LEGOdudes/sider/index.html">
+                    <img src="/LEGOdudes/website_images/LD_logo.svg" alt="LegoDudes"/>
+                </a>
+            </h1>
+
+            <div class="handlekurv-container-1">
+                <button id="cartToggle" class="cart-button">
+                    <img src="/LEGOdudes/website_images/legocart.svg" alt="Handlevogn"/>
+                    <span class="telling">0</span>
+                </button>
+                
+                
+                <div id="cart-dropdown" class ="cart-dropdown hidden">
+                    <h3>Din handlevogn</h3>
+                    <ul id="handlekurv"></ul>
+                    <p id="handlekurvtotal"></p>
+                </div>
+            </div>
+            <button id="logoutBtn">Logg ut</button>
+
+        </header>
+
+
+        <nav class="nav-bar">
+            <a href="/LEGOdudes/sider/index.html">HJEM</a>
+            <a href="/LEGOdudes/sider/city.html">CITY</a>
+            <a href="/LEGOdudes/sider/ninjago.html">NINJAGO</a>
+            <a href="/LEGOdudes/sider/castle-and-knights.html">CASTLES AND KNIGHTS</a>
+            <a href="/LEGOdudes/sider/marine-and-pirates.html">MARINE AND PIRATES</a>
+            <a href="/LEGOdudes/sider/movie-characters.html">MOVIE CHARACTERS</a>
+        </nav>
+
+
+        <main>
+            
+            <h2 class="hoved">Velkommen til min side!</h2>
+            
+            <section class="hero">
+                <div class="hero-text">
+                    <h2>Bygg din LEGO-verden</h2>
+                    <p>
+                        Samle ekslusive LEGO-figurer fra Ninjago, City og mer.
+                        Begrenset lager - sikre deg favorittene dine i dag!
+                    </p>
+                </div>
+            </section>
+            
+            <section class="info">
+                <div class="info-box">
+                    <h3>Rask levering</h3>
+                    <p>Alle varer sendes innen 1-2 virkedager.</p>
+                </div>
+                <div class="info-box">
+                    <h3>Begrenset lager</h3>
+                    <p>Flere figurer finnes kun i små omlag.</p>
+                </div>
+                <div class="info-box">
+                    <h3>Trygg handel</h3>
+                    <p>Enkel betaling og sikker utsjekk.</p>
+                </div>
+            </section>
+
+            <section class="reviews">
+                <h3>Hva kundene sier</h3>
+    
+                <blockquote>
+                    ⭐⭐⭐⭐⭐ 
+                    "Rask levering og kjempebra kvalitet!"
+                    <span>- Tobias (13)</span>
+                </blockquote>
+    
+                <blockquote>
+                    ⭐⭐⭐⭐⭐ 
+                    "Fant figurer jeg ikke får tak i andre steder."
+                    <span>- Emil (16)</span>
+                </blockquote>
+            </section>
+        </main>
+        
+        
+        <footer class="rettigheter">
+            <p>&copy; Lego Dudes - 2026</p>
+            <nav>
+                <a href="#">Om oss</a>
+                <a href="#">Kontakt</a>
+                <a href="#">Personvern</a>
+            </nav>
+        </footer>
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+</body>
+</html>
