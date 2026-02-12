@@ -1,0 +1,35 @@
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(/LEGOdudes/website_images/mainbackground.png), #ffd700;
+}
+
+.login-box {
+    background: white;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #00af4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
